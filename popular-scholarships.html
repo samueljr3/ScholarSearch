@@ -1,0 +1,394 @@
+<html lang="en">
+
+  <head>
+
+    <link rel="stylesheet" type="text/css" href="css-popular-scholarships.css">
+    <script> type="text/javascript" src="popular-scholarships.js"</script>
+    <title>Popular Scholarships</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+
+    <style>
+      body {background-color:#57B8FF;}
+      h1   {color: White;}
+      p    {color: White;}
+    </style>
+  </head>
+<body>
+
+
+<div>
+  <div class="topnav">
+    <a href="<script>
+      function goBack() {
+        window.history.back();
+       }
+      </script>"><button onclick="goBack()">Go Back</button>
+      <script>
+        function goBack() {
+        window.history.back();
+        }
+      </script>
+    </a>
+  <a class="active" href="popular-scholarships.html">Popular Scholarships</a>
+  <a href="account.html">Account</a>
+  <a href="index.html">Sign Out </a>
+  </div>
+</div>
+
+
+
+<div class="container" id="refine">
+  <div class="row">
+    <div class="col">
+      <div class="button-group">
+         Age
+      <button type="button" class="btn btn-default btn-sm dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-cog"></span> <span class="caret"></span></button>
+          <ul class="dropdown-menu scrollable-menu">
+            <li><a href="#" class="small" data-value="option1" tabindex="-1"><input type="checkbox"/>&nbsp;17-21</a></li>
+            <li><a href="#" class="small" data-value="option2" tabindex="-1"><input type="checkbox"/>&nbsp;22-26</a></li>
+            <li><a href="#" class="small" data-value="option3" tabindex="-1"><input type="checkbox"/>&nbsp;27-31</a></li>
+            <li><a href="#" class="small" data-value="option4" tabindex="-1"><input type="checkbox"/>&nbsp;32-36</a></li>
+            <li><a href="#" class="small" data-value="option5" tabindex="-1"><input type="checkbox"/>&nbsp;37-41</a></li>
+            <li><a href="#" class="small" data-value="option6" tabindex="-1"><input type="checkbox"/>&nbsp;42-46</a></li>
+            <li><a href="#" class="small" data-value="option6" tabindex="-1"><input type="checkbox"/>&nbsp;47-50</a></li>
+            <li><a href="#" class="small" data-value="option6" tabindex="-1"><input type="checkbox"/>&nbsp;50+</a></li>
+          </ul>
+      </div>
+
+       <div class="button-group">
+       Ethnicity
+      <button type="button" class="btn btn-default btn-sm dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-cog"></span> <span class="caret"></span></button>
+        <ul class="dropdown-menu scrollable-menu">
+        <li><a href="#" class="small" data-value="option1" tabindex="-1"><input type="checkbox"/>&nbsp;American Indian or Alaskan Native</a></li>
+        <li><a href="#" class="small" data-value="option2" tabindex="-1"><input type="checkbox"/>&nbsp;Asian</a></li>
+        <li><a href="#" class="small" data-value="option3" tabindex="-1"><input type="checkbox"/>&nbsp;African American</a></li>
+        <li><a href="#" class="small" data-value="option4" tabindex="-1"><input type="checkbox"/>&nbsp;Native Hawaiian or other Pacific Native</a></li>
+        <li><a href="#" class="small" data-value="option5" tabindex="-1"><input type="checkbox"/>&nbsp;White</a></li>
+        <li><a href="#" class="small" data-value="option6" tabindex="-1"><input type="checkbox"/>&nbsp;Other</a></li>
+        </ul>
+        </div>
+
+       <div class="button-group">
+           Gender
+            <button type="button" class="btn btn-default btn-sm dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-cog"></span> <span class="caret"></span></button>
+      <ul class="dropdown-menu scrollable-menu">
+      <li><a href="#" class="small" data-value="option1" tabindex="-1"><input type="checkbox"/>&nbsp;Male</a></li>
+      <li><a href="#" class="small" data-value="option2" tabindex="-1"><input type="checkbox"/>&nbsp;Female</a></li>
+      </ul>
+      </div>
+
+       <div class="button-group">
+     Sports
+      <button type="button" class="btn btn-default btn-sm dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-cog"></span> <span class="caret"></span></button>
+<ul class="dropdown-menu scrollable-menu">
+<li><a href="#" class="small" data-value="option1" tabindex="-1"><input type="checkbox"/>&nbsp;Baseball</a></li>
+<li><a href="#" class="small" data-value="option2" tabindex="-1"><input type="checkbox"/>&nbsp;Basketball</a></li>
+<li><a href="#" class="small" data-value="option3" tabindex="-1"><input type="checkbox"/>&nbsp;Bowling</a></li>
+<li><a href="#" class="small" data-value="option4" tabindex="-1"><input type="checkbox"/>&nbsp;Cross Country</a></li>
+<li><a href="#" class="small" data-value="option5" tabindex="-1"><input type="checkbox"/>&nbsp;Fencing</a></li>
+<li><a href="#" class="small" data-value="option6" tabindex="-1"><input type="checkbox"/>&nbsp;Field Hockey</a></li>
+<li><a href="#" class="small" data-value="option1" tabindex="-1"><input type="checkbox"/>&nbsp;Football</a></li>
+<li><a href="#" class="small" data-value="option2" tabindex="-1"><input type="checkbox"/>&nbsp;Golf</a></li>
+<li><a href="#" class="small" data-value="option3" tabindex="-1"><input type="checkbox"/>&nbsp;Gymnastics</a></li>
+<li><a href="#" class="small" data-value="option4" tabndex="-1"><input type="checkbox"/>&nbsp;Ice Hockey</a></li>
+<li><a href="#" class="small" data-value="option5" tabindex="-1"><input type="checkbox"/>&nbsp;Lacrosse</a></li>
+<li><a href="#" class="small" data-value="option6" tabindex="-1"><input type="checkbox"/>&nbsp;Rifle</a></li>
+<li><a href="#" class="small" data-value="option1" tabindex="-1"><input type="checkbox"/>&nbsp;Rowing</a></li>
+<li><a href="#" class="small" data-value="option2" tabindex="-1"><input type="checkbox"/>&nbsp;Skiing</a></li>
+<li><a href="#" class="small" data-value="option3" tabindex="-1"><input type="checkbox"/>&nbsp;Soccer</a></li>
+<li><a href="#" class="small" data-value="option4" tabindex="-1"><input type="checkbox"/>&nbsp;Softball</a></li>
+<li><a href="#" class="small" data-value="option5" tabindex="-1"><input type="checkbox"/>&nbsp;Swimming</a></li>
+<li><a href="#" class="small" data-value="option6" tabindex="-1"><input type="checkbox"/>&nbsp;Tennis</a></li>
+<li><a href="#" class="small" data-value="option1" tabindex="-1"><input type="checkbox"/>&nbsp;Track and Field</a></li>
+<li><a href="#" class="small" data-value="option2" tabindex="-1"><input type="checkbox"/>&nbsp;Volleyball</a></li>
+<li><a href="#" class="small" data-value="option3" tabindex="-1"><input type="checkbox"/>&nbsp;Water Polo</a></li>
+<li><a href="#" class="small" data-value="option4" tabindex="-1"><input type="checkbox"/>&nbsp;Wrestling</a></li>
+</ul>
+</div>
+
+      <div class="button-group">
+     GPA
+      <button type="button" class="btn btn-default btn-sm dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-cog"></span> <span class="caret"></span></button>
+<ul class="dropdown-menu scrollable-menu">
+<li><a href="#" class="small" data-value="option1" tabindex="-1"><input type="checkbox"/>&nbsp;2.0-2.25</a></li>
+<li><a href="#" class="small" data-value="option2" tabindex="-1"><input type="checkbox"/>&nbsp;2.26-2.5</a></li>
+<li><a href="#" class="small" data-value="option3" tabindex="-1"><input type="checkbox"/>&nbsp;2.51-2.75</a></li>
+<li><a href="#" class="small" data-value="option4" tabindex="-1"><input type="checkbox"/>&nbsp;2.76-3.0</a></li>
+<li><a href="#" class="small" data-value="option5" tabindex="-1"><input type="checkbox"/>&nbsp;3.01-3.25</a></li>
+<li><a href="#" class="small" data-value="option6" tabindex="-1"><input type="checkbox"/>&nbsp;3.26-3.5</a></li>
+<li><a href="#" class="small" data-value="option1" tabindex="-1"><input type="checkbox"/>&nbsp;3.51-3.75</a></li>
+<li><a href="#" class="small" data-value="option2" tabindex="-1"><input type="checkbox"/>&nbsp;3.76-4.0</a></li>
+<li><a href="#" class="small" data-value="option3" tabindex="-1"><input type="checkbox"/>&nbsp;4.01-4.25</a></li>
+<li><a href="#" class="small" data-value="option4" tabindex="-1"><input type="checkbox"/>&nbsp;4.26-4.5</a></li>
+<li><a href="#" class="small" data-value="option5" tabindex="-1"><input type="checkbox"/>&nbsp;4.51-4.75</a></li>
+<li><a href="#" class="small" data-value="option6" tabindex="-1"><input type="checkbox"/>&nbsp;4.76-5.0</a></li>
+<li><a href="#" class="small" data-value="option1" tabindex="-1"><input type="checkbox"/>&nbsp;5.0+</a></li>
+</ul>
+</div>
+
+       <div class="button-group">
+     SAT Score
+     <button type="button" class="btn btn-default btn-sm dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-cog"></span> <span class="caret"></span></button>
+<ul class="dropdown-menu scrollable-menu">
+<li><a href="#" class="small" data-value="option1" tabindex="-1"><input type="checkbox"/>&nbsp;900-1000</a></li>
+<li><a href="#" class="small" data-value="option2" tabindex="-1"><input type="checkbox"/>&nbsp;1100-1200</a></li>
+<li><a href="#" class="small" data-value="option3" tabindex="-1"><input type="checkbox"/>&nbsp;1300-1400</a></li>
+<li><a href="#" class="small" data-value="option4" tabindex="-1"><input type="checkbox"/>&nbsp;1500-1600</a></li>
+</ul>
+</div>
+
+      <div class="button-group">
+     ACT Score
+<button type="button" class="btn btn-default btn-sm dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-cog"></span> <span class="caret"></span></button>
+<ul class="dropdown-menu scrollable-menu">
+<li><a href="#" class="small" data-value="option1" tabindex="-1"><input type="checkbox"/>&nbsp;15-19</a></li>
+<li><a href="#" class="small" data-value="option2" tabindex="-1"><input type="checkbox"/>&nbsp;20-24</a></li>
+<li><a href="#" class="small" data-value="option3" tabindex="-1"><input type="checkbox"/>&nbsp;25-29</a></li>
+<li><a href="#" class="small" data-value="option4" tabindex="-1"><input type="checkbox"/>&nbsp;30-36</a></li>
+</ul>
+  </div>
+
+      <div class="button-group">
+     Disabilities
+      <button type="button" class="btn btn-default btn-sm dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-cog"></span> <span class="caret"></span></button>
+<ul class="dropdown-menu scrollable-menu">
+<li><a href="#" class="small" data-value="option1" tabindex="-1"><input type="checkbox"/>&nbsp;None</a></li>
+<li><a href="#" class="small" data-value="option2" tabindex="-1"><input type="checkbox"/>&nbsp;ADHD</a></li>
+<li><a href="#" class="small" data-value="option3" tabindex="-1"><input type="checkbox"/>&nbsp;Autism</a></li>
+<li><a href="#" class="small" data-value="option4" tabindex="-1"><input type="checkbox"/>&nbsp;Aspergers</a></li>
+<li><a href="#" class="small" data-value="option5" tabindex="-1"><input type="checkbox"/>&nbsp;Bipolar Disorder</a></li>
+<li><a href="#" class="small" data-value="option6" tabindex="-1"><input type="checkbox"/>&nbsp;Depression</a></li>
+<li><a href="#" class="small" data-value="option1" tabindex="-1"><input type="checkbox"/>&nbsp;PTSD</a></li>
+<li><a href="#" class="small" data-value="option2" tabindex="-1"><input type="checkbox"/>&nbsp;Schizophrenia</a></li>
+<li><a href="#" class="small" data-value="option3" tabindex="-1"><input type="checkbox"/>&nbsp;Immobilized</a></li>
+<li><a href="#" class="small" data-value="option4" tabindex="-1"><input type="checkbox"/>&nbsp;Other</a></li>
+</ul>
+  </div>
+
+      <div class="button-group">
+     First Generation
+      <button type="button" class="btn btn-default btn-sm dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-cog"></span> <span class="caret"></span></button>
+        <ul class="dropdown-menu scrollable-menu">
+          <li><a href="#" class="small" data-value="option1" tabindex="-1"><input type="checkbox"/>&nbsp;Yes</a></li>
+          <li><a href="#" class="small" data-value="option2" tabindex="-1"><input type="checkbox"/>&nbsp;No</a></li>
+        </ul>
+    </div>
+
+       <div class="button-group">
+     State
+      <button type="button" class="btn btn-default btn-sm dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-cog"></span> <span class="caret"></span></button>
+     <ul class="dropdown-menu scrollable-menu">
+        <li><a href="#" class="small" data-value="option1" tabindex="-1"><input type="checkbox"/>&nbsp;AL</a></li>
+        <li><a href="#" class="small" data-value="option2" tabindex="-1"><input type="checkbox"/>&nbsp;AK</a></li>
+        <li><a href="#" class="small" data-value="option3" tabndex="-1"><input type="checkbox"/>&nbsp;AZ</a></li>
+        <li><a href="#" class="small" data-value="option4" tabindex="-1"><input type="checkbox"/>&nbsp;AR</a></li>
+        <li><a href="#" class="small" data-value="option5" tabindex="-1"><input type="checkbox"/>&nbsp;CA</a></li>
+        <li><a href="#" class="small" data-value="option6" tabindex="-1"><input type="checkbox"/>&nbsp;CO</a></li>
+        <li><a href="#" class="small" data-value="option1" tabindex="-1"><input type="checkbox"/>&nbsp;CT</a></li>
+        <li><a href="#" class="small" data-value="option2" tabindex="-1"><input type="checkbox"/>&nbsp;DE</a></li>
+        <li><a href="#" class="small" data-value="option3" tabindex="-1"><input type="checkbox"/>&nbsp;FL</a></li>
+        <li><a href="#" class="small" data-value="option4" tabindex="-1"><input type="checkbox"/>&nbsp;GA</a></li>
+        <li><a href="#" class="small" data-value="option5" tabindex="-1"><input type="checkbox"/>&nbsp;HI</a></li>
+        <li><a href="#" class="small" data-value="option6" tabindex="-1"><input type="checkbox"/>&nbsp;IA</a></li>
+        <li><a href="#" class="small" data-value="option1" tabindex="-1"><input type="checkbox"/>&nbsp;ID</a></li>
+        <li><a href="#" class="small" data-value="option2" tabindex="-1"><input type="checkbox"/>&nbsp;IL</a></li>
+        <li><a href="#" class="small" data-value="option3" tabindex="-1"><input type="checkbox"/>&nbsp;IN</a></li>
+        <li><a href="#" class="small" data-value="option4" tabindex="-1"><input type="checkbox"/>&nbsp;KS</a></li>
+        <li><a href="#" class="small" data-value="option5" tabindex="-1"><input type="checkbox"/>&nbsp;KY</a></li>
+        <li><a href="#" class="small" data-value="option6" tabindex="-1"><input type="checkbox"/>&nbsp;LA</a></li>
+        <li><a href="#" class="small" data-value="option1" tabindex="-1"><input type="checkbox"/>&nbsp;MA</a></li>
+        <li><a href="#" class="small" data-value="option2" tabindex="-1"><input type="checkbox"/>&nbsp;MD</a></li>
+        <li><a href="#" class="small" data-value="option3" tabindex="-1"><input type="checkbox"/>&nbsp;ME</a></li>
+        <li><a href="#" class="small" data-value="option4" tabindex="-1"><input type="checkbox"/>&nbsp;MI</a></li>
+         <li><a href="#" class="small" data-value="option1" tabindex="-1"><input type="checkbox"/>&nbsp;MN</a></li>
+        <li><a href="#" class="small" data-value="option2" tabindex="-1"><input type="checkbox"/>&nbsp;MO</a></li>
+        <li><a href="#" class="small" data-value="option3" tabindex="-1"><input type="checkbox"/>&nbsp;MS</a></li>
+        <li><a href="#" class="small" data-value="option4" tabindex="-1"><input type="checkbox"/>&nbsp;MT</a></li>
+        <li><a href="#" class="small" data-value="option5" tabindex="-1"><input type="checkbox"/>&nbsp;NE</a></li>
+        <li><a href="#" class="small" data-value="option6" tabindex="-1"><input type="checkbox"/>&nbsp;NV</a></li>
+        <li><a href="#" class="small" data-value="option1" tabindex="-1"><input type="checkbox"/>&nbsp;NH</a></li>
+        <li><a href="#" class="small" data-value="option2" tabindex="-1"><input type="checkbox"/>&nbsp;NJ</a></li>
+        <li><a href="#" class="small" data-value="option3" tabindex="-1"><input type="checkbox"/>&nbsp;NM</a></li>
+        <li><a href="#" class="small" data-value="option4" tabindex="-1"><input type="checkbox"/>&nbsp;NY</a></li>
+        <li><a href="#" class="small" data-value="option5" tabindex="-1"><input type="checkbox"/>&nbsp;NC</a></li>
+        <li><a href="#" class="small" data-value="option6" tabndex="-1"><input type="checkbox"/>&nbsp;ND</a></li>
+        <li><a href="#" class="small" data-value="option1" tabindex="-1"><input type="checkbox"/>&nbsp;OH</a></li>
+        <li><a href="#" class="small" data-value="option2" tabindex="-1"><input type="checkbox"/>&nbsp;OK</a></li>
+        <li><a href="#" class="small" data-value="option3" tabindex="-1"><input type="checkbox"/>&nbsp;OR</a></li>
+        <li><a href="#" class="small" data-value="option4" tabndex="-1"><input type="checkbox"/>&nbsp;PA</a></li>
+        <li><a href="#" class="small" data-value="option5" tabindex="-1"><input type="checkbox"/>&nbsp;RI</a></li>
+        <li><a href="#" class="small" data-value="option6" tabindex="-1"><input type="checkbox"/>&nbsp;SC</a></li>
+        <li><a href="#" class="small" data-value="option1" tabindex="-1"><input type="checkbox"/>&nbSP;SD</a></li>
+        <li><a href="#" class="small" data-value="option2" tabindex="-1"><input type="checkbox"/>&nbsp;TN</a></li>
+        <li><a href="#" class="small" data-value="option3" tabindex="-1"><input type="checkbox"/>&nbsp;TX</a></li>
+        <li><a href="#" class="small" data-value="option4" tabindex="-1"><input type="checkbox"/>&nbsp;UT</a></li>
+         <li><a href="#" class="small" data-value="option1" taibindex="-1"><input type="checkbox"/>&nbsp;VT</a></li>
+        <li><a href="#" class="small" data-value="option2" tabindex="-1"><input type="checkbox"/>&nbsp;VA</a></li>
+        <li><a href="#" class="small" data-value="option3" tabindex="-1"><input type="checkbox"/>&nbsp;WA</a></li>
+        <li><a href="#" class="small" data-value="option4" tabindex="-1"><input type="checkbox"/>&nbsp;WV</a></li>
+        <li><a href="#" class="small" data-value="option5" tabindex="-1"><input type="checkbox"/>&nbsp;WI</a></li>
+        <li><a href="#" class="small" data-value="option6" tabindex="-1"><input type="checkbox"/>&nbsp;WY</a></li>
+     </ul>
+    </div>
+
+       <div class="button-group">
+     Major
+      <button type="button" class="btn btn-default btn-sm dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-cog"></span> <span class="caret"></span></button>
+         <ul class="dropdown-menu scrollable-menu">
+            <li><a href="#" class="small" data-value="option1" tabindex="-1"><input type="checkbox"/>&nbsp;Accounting</a></li>
+            <li><a href="#" class="small" data-value="option2" tabindex="-1"><input type="checkbox"/>&nbsp;Actuarial Science</a></li>
+            <li><a href="#" class="small" data-value="option3" tabindex="-1"><input type="checkbox"/>&nbsp;Advertising</a></li>
+            <li><a href="#" class="small" data-value="option4" tabindex="-1"><input type="checkbox"/>&nbsp;Agriculture</a></li>
+            <li><a href="#" class="small" data-value="option5" tabindex="-1"><input type="checkbox"/>&nbsp;Agricultural and Biological Engineering</a></li>
+            <li><a href="#" class="small" data-value="option6" tabindex="-1"><input type="checkbox"/>&nbsp;Agricultural Business Management</a></li>
+            <li><a href="#" class="small" data-value="option1" tabindex="-1"><input type="checkbox"/>&nbsp;Agriculture Economics</a></li>
+            <li><a href="#" class="small" data-value="option2" tabindex="-1"><input type="checkbox"/>&nbsp;Animal Biosceince</a></li>
+            <li><a href="#" class="small" data-value="option3" tabindex="-1"><input type="checkbox"/>&nbsp;Animal Sciences</a></li>
+            <li><a href="#" class="small" data-value="option4" tabindex="-1"><input type="checkbox"/>&nbsp;Anthropology</a></li>
+            <li><a href="#" class="small" data-value="option5" tabindex="-1"><input type="checkbox"/>&nbsp;Applied Mathematics</a></li>
+            <li><a href="#" class="small" data-value="option6" tabindex="-1"><input type="checkbox"/>&nbsp;Archaeology</a></li>
+            <li><a href="#" class="small" data-value="option1" tabindex="-1"><input type="checkbox"/>&nbsp;Architectural Engineering</a></li>
+            <li><a href="#" class="small" data-value="option2" tabindex="-1"><input type="checkbox"/>&nbsp;Architexture</a></li>
+            <li><a href="#" class="small" data-value="option3" tabindex="-1"><input type="checkbox"/>&nbsp;Art History</a></li>
+            <li><a href="#" class="small" data-value="option4" tabindex="-1"><input type="checkbox"/>&nbsp;Studio Art</a></li>
+            <li><a href="#" class="small" data-value="option5" tabindex="-1"><input type="checkbox"/>&nbsp;Art Education</a></li>
+            <li><a href="#" class="small" data-value="option6" tabindex="-1"><input type="checkbox"/>&nbsp;Biobehavioral Health</a></li>
+            <li><a href="#" class="small" data-value="option1" tabindex="-1"><input type="checkbox"/>&nbsp;Biochemistry</a></li>
+            <li><a href="#" class="small" data-value="option2" tabindex="-1"><input type="checkbox"/>&nbsp;Biology</a></li>
+            <li><a href="#" class="small" data-value="option3" tabindex="-1"><input type="checkbox"/>&nbsp;Biophysics</a></li>
+            <li><a href="#" class="small" data-value="option4" tabindex="-1"><input type="checkbox"/>&nbsp;Biotechnology</a></li>
+            <li><a href="#" class="small" data-value="option1" tabindex="-1"><input type="checkbox"/>&nbsp;Business Administration and Management</a></li>
+            <li><a href="#" class="small" data-value="option2" tabindex="-1"><input type="checkbox"/>&nbsp;Business Logistics</a></li>
+            <li><a href="#" class="small" data-value="option3" tabindex="-1"><input type="checkbox"/>&nbsp;Chemical Engineering</a></li>
+            <li><a href="#" class="small" data-value="option4" tabindex="-1"><input type="checkbox"/>&nbsp;Chemistry</a></li>
+            <li><a href="#" class="small" data-value="option5" tabindex="-1"><input type="checkbox"/>&nbsp;Children</a></li>
+            <li><a href="#" class="small" data-value="option6" tabindex="-1"><input type="checkbox"/>&nbsp;Civil Engineering</a></li>
+            <li><a href="#" class="small" data-value="option1" tabindex="-1"><input type="checkbox"/>&nbsp;Computer Science</a></li>
+            <li><a href="#" class="small" data-value="option2" tabindex="-1"><input type="checkbox"/>&nbsp;Crime, Law, and Justice</a></li>
+            <li><a href="#" class="small" data-value="option3" tabindex="-1"><input type="checkbox"/>&nbsp;Dance</a></li>
+            <li><a href="#" class="small" data-value="option4" tabindex="-1"><input type="checkbox"/>&nbsp;Earth Scienses</a></li>
+            <li><a href="#" class="small" data-value="option5" tabindex="-1"><input type="checkbox"/>&nbsp;Economics</a></li>
+            <li><a href="#" class="small" data-value="option6" tabindex="-1"><input type="checkbox"/>&nbsp;Electrical Engineering</a></li>
+            <li><a href="#" class="small" data-value="option1" tabindex="-1"><input type="checkbox"/>&nbsp;Elementary and Kindergarten Education</a></li>
+            <li><a href="#" class="small" data-value="option2" tabindex="-1"><input type="checkbox"/>&nbsp;Engineering Science</a></li>
+            <li><a href="#" class="small" data-value="option3" tabindex="-1"><input type="checkbox"/>&nbsp;English</a></li>
+            <li><a href="#" class="small" data-value="option4" tabindex="-1"><input type="checkbox"/>&nbsp;Environmental Systems Engineering</a></li>
+            <li><a href="#" class="small" data-value="option5" tabindex="-1"><input type="checkbox"/>&nbsp;Film and Video</a></li>
+            <li><a href="#" class="small" data-value="option6" tabindex="-1"><input type="checkbox"/>&nbsp;Finance</a></li>
+            <li><a href="#" class="small" data-value="option1" tabindex="-1"><input type="checkbox"/>&nbSP;Food Science</a></li>
+            <li><a href="#" class="small" data-value="option2" tabindex="-1"><input type="checkbox"/>&nbsp;Forest Science</a></li>
+            <li><a href="#" class="small" data-value="option3" tabindex="-1"><input type="checkbox"/>&nbsp;Forest Technology</a></li>
+            <li><a href="#" class="small" data-value="option4" tabindex="-1"><input type="checkbox"/>&nbsp;General Sciece</a></li>
+            <li><a href="#" class="small" data-value="option1" tabindex="-1"><input type="checkbox"/>&nbsp;Geography</a></li>
+            <li><a href="#" class="small" data-value="option2" tabindex="-1"><input type="checkbox"/>&nbsp;Graphic Design and Photography</a></li>
+            <li><a href="#" class="small" data-value="option3" tabindex="-1"><input type="checkbox"/>&nbsp;Health and Physical Education</a></li>
+            <li><a href="#" class="small" data-value="option4" tabindex="-1"><input type="checkbox"/>&nbsp;Health Policy and Administration</a></li>
+            <li><a href="#" class="small" data-value="option5" tabindex="-1"><input type="checkbox"/>&nbsp;History</a></li>
+            <li><a href="#" class="small" data-value="option6" tabindex="-1"><input type="checkbox"/>&nbsp;Horticulture</a></li>
+            <li><a href="#" class="small" data-value="option1" tabindex="-1"><input type="checkbox"/>&nbsp;Hotel, Restaurant, and Institutional Management</a></li>
+            <li><a href="#" class="small" data-value="option2" tabindex="-1"><input type="checkbox"/>&nbsp;Human Development and Family Studies</a></li>
+            <li><a href="#" class="small" data-value="option3" tabindex="-1"><input type="checkbox"/>&nbsp;Individual and Family Studies</a></li>
+            <li><a href="#" class="small" data-value="option4" tabindex="-1"><input type="checkbox"/>&nbsp;Industrial Engineering</a></li>
+            <li><a href="#" class="small" data-value="option5" tabindex="-1"><input type="checkbox"/>&nbsp;Information Sciences and Technology</a></li>
+            <li><a href="#" class="small" data-value="option6" tabindex="-1"><input type="checkbox"/>&nbsp;Journalism</a></li>
+            <li><a href="#" class="small" data-value="option1" tabindex="-1"><input type="checkbox"/>&nbsp;Kinesiology</a></li>
+            <li><a href="#" class="small" data-value="option2" tabindex="-1"><input type="checkbox"/>&nbsp;Landscape Architecture</a></li>
+            <li><a href="#" class="small" data-value="option3" tabindex="-1"><input type="checkbox"/>&nbsp;Law Enforcement and Correction</a></li>
+            <li><a href="#" class="small" data-value="option4" tabindex="-1"><input type="checkbox"/>&nbsp;Marine Biology</a></li>
+            <li><a href="#" class="small" data-value="option5" tabindex="-1"><input type="checkbox"/>&nbsp;Marketing</a></li>
+            <li><a href="#" class="small" data-value="option6" tabindex="-1"><input type="checkbox"/>&nbsp;Mathematics</a></li>
+            <li><a href="#" class="small" data-value="option1" tabindex="-1"><input type="checkbox"/>&nbsp;Mechanical Engineering</a></li>
+            <li><a href="#" class="small" data-value="option2" tabindex="-1"><input type="checkbox"/>&nbsp;Media Studies</a></li>
+            <li><a href="#" class="small" data-value="option3" tabindex="-1"><input type="checkbox"/>&nbsp;Meteorology</a></li>
+            <li><a href="#" class="small" data-value="option4" tabindex="-1"><input type="checkbox"/>&nbsp;Microbiology</a></li>
+            <li><a href="#" class="small" data-value="option5" tabindex="-1"><input type="checkbox"/>&nbsp;Mineral Economics</a></li>
+            <li><a href="#" class="small" data-value="option6" tabindex="-1"><input type="checkbox"/>&nbsp;Modern Languages</a></li>
+            <li><a href="#" class="small" data-value="option1" tabindex="-1"><input type="checkbox"/>&nbsp;Music Education</a></li>
+            <li><a href="#" class="small" data-value="option2" tabindex="-1"><input type="checkbox"/>&nbsp;Nuclear Engineering</a></li>
+            <li><a href="#" class="small" data-value="option3" tabindex="-1"><input type="checkbox"/>&nbsp;Nursing</a></li>
+            <li><a href="#" class="small" data-value="option4" tabindex="-1"><input type="checkbox"/>&nbsp;Nutrition</a></li>
+            <li><a href="#" class="small" data-value="option1" tabindex="-1"><input type="checkbox"/>&nbsp;Philosophy</a></li>
+            <li><a href="#" class="small" data-value="option2" tabindex="-1"><input type="checkbox"/>&nbsp;Pre-Med</a></li>
+            <li><a href="#" class="small" data-value="option3" tabindex="-1"><input type="checkbox"/>&nbsp;Psychology</a></li>
+            <li><a href="#" class="small" data-value="option4" tabindex="-1"><input type="checkbox"/>&nbsp;Public Relations</a></li>
+            <li><a href="#" class="small" data-value="option5" tabindex="-1"><input type="checkbox"/>&nbsp;Real Estate</a></li>
+            <li><a href="#" class="small" data-value="option6" tabindex="-1"><input type="checkbox"/>&nbsp;Recreation and Parks</a></li>
+            <li><a href="#" class="small" data-value="option1" tabindex="-1"><input type="checkbox"/>&nbsp;Rehabilitation Services</a></li>
+            <li><a href="#" class="small" data-value="option2" tabindex="-1"><input type="checkbox"/>&nbsp;Religious Studies</a></li>
+            <li><a href="#" class="small" data-value="option3" tabindex="-1"><input type="checkbox"/>&nbsp;Secondary Studies</a></li>
+            <li><a href="#" class="small" data-value="option4" tabindex="-1"><input type="checkbox"/>&nbsp;Sociology</a></li>
+            <li><a href="#" class="small" data-value="option5" tabindex="-1"><input type="checkbox"/>&nbsp;Social Work</a></li>
+            <li><a href="#" class="small" data-value="option6" tabindex="-1"><input type="checkbox"/>&nbsp;Special Education</a></li>
+            <li><a href="#" class="small" data-value="option1" tabindex="-1"><input type="checkbox"/>&nbsp;Speech Communication</a></li>
+            <li><a href="#" class="small" data-value="option2" tabindex="-1"><input type="checkbox"/>&nbsp;Speech Pathology and Audiology</a></li>
+            <li><a href="#" class="small" data-value="option3" tabindex="-1"><input type="checkbox"/>&nbsp;Statistics</a></li>
+            <li><a href="#" class="small" data-value="option4" tabindex="-1"><input type="checkbox"/>&nbsp;Telecommunications</a></li>
+            <li><a href="#" class="small" data-value="option5" tabindex="-1"><input type="checkbox"/>&nbsp;Theater</a></li>
+            <li><a href="#" class="small" data-value="option6" tabindex="-1"><input type="checkbox"/>&nbsp;Wildlife and Fishery Science</a></li>
+            <li><a href="#" class="small" data-value="option1" tabindex="-1"><input type="checkbox"/>&nbsp;Wildlife Technology</a></li>
+            <li><a href="#" class="small" data-value="option2" tabindex="-1"><input type="checkbox"/>&nbsp;Women Studies</a></li>
+          </ul>
+      </div>
+
+
+  </div>
+<!--     end of dropdown boxes -->
+
+
+ <div class="col">
+
+      <div class="container" id="scholarships">
+        <div class="checkbox">
+        <label><input type="checkbox" value=""><p style="color:#841C26;">
+          Coca-Cola Scholars Program <br>An achievement-based scholarship awarded to graduating high school seniors each year.
+        <br> Financial need is not a factor. Students are recognized for their capacity to lead and serve,
+          <br> and their commitment to making a significant impact on their schools and communities.
+          <br> Amount- $20,000 <br> Deadline-October 31, 2019 </p> </label>
+      </div>
+      <div class="checkbox">
+        <label><input type="checkbox" value=""><p style="color:#841C26;"> Burger King Scholars Program <br> Students must have a minimum 2.5 GPA, work part-time an average of 15 hours per week
+        <br>unless there are extenuating circumstances, participate in community service or other <br> activities, demonstrate financial need and plan to enroll in an accredited two- or four-year
+        <br> college, university or vocational/technical school by the fall term of the graduating year. <br> Applicants do NOT need to work at Burger King, but Burger King employees are eligible.
+          <br> Amount- $25,000  <br> Deadline- January 31, 2019 </p></label>
+      </div>
+      <div class="checkbox">
+        <label><input type="checkbox" value=""><p style="color:#841C26;"> AXA Achievement Scholarships <br> Awarded to high school seniors who have demonstrated outstanding achievement in non-academic activities in school or community.
+          <br> Amount- $25,000 <br> Deadline- December 31, 2019 </p></label>
+        <div class="checkbox">
+        <label><input type="checkbox" value=""><p style="color:#841C26;">Elks Foundation Most Valuable Student Scholarship <br> Awarded to high school seniors who have demonstrated scholarship, community leadership and financial need.
+          <br> Amount- $15,000 <br> Deadline- December 31, 2019 </p></label>
+      </div>
+        </div>
+      <div class="checkbox">
+        <label><input type="checkbox" value=""><p style="color:#841C26;">Ronald McDonald House Charities Scholarship <br> Awarded to high school seniors, 21 years of age and younger, from diverse communities
+          <br> who have outstanding scholastic, community service and employment performance. <br> Amount- $100,000 <br> Deadline- Fall of 2018</p></label>
+      </div>
+      <div class="checkbox ">
+        <label><input type="checkbox" value="" ><p style="color:#841C26;">Doodle 4 Google <br> Available for students in kindergarten through 12th grade who create a doodle they feel
+          <br> best represents an annual theme, such as, "If I Could Invent One Thing to Make the World a Better Place...". <br> Amount- $30,000 <br> Deadline- March 31, 2019</p></label>
+      </div>
+   </div>
+  </div>
+</div>
+  </div>
+
+
+</body>
+
+
+
+
+
+  <br>
+  <br>
+  <form method="get" action="account.html">
+    <button type="submit">Save Scholarships</button>
+</form>
+
+</html>
